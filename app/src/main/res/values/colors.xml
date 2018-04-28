@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bcgOverweight">#644BE2</color>
+    <color name="bcgNormal">#88F477</color>
+    <color name="bcgCritical">#FF1010</color>
+    <color name="buttonTextColor">#222221</color>
+    <color name="textColorBottomLinearLayout">#222221</color>
+    <color name="buttonBcg">#A2FE67</color>
+</resources>

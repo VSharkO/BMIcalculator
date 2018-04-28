@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="textViewBMI_main">
+        <item name="android:textSize">@dimen/textSizeBmi</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/textColorBottomLinearLayout</item>
+    </style>
+
+    <style name="textViewBMIAmount_main">
+        <item name="android:textSize">@dimen/textSizeBmi</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">@color/textColorBottomLinearLayout</item>
+
+    </style>
+
+    <style name="textViewState_main">
+        <item name="android:textSize">@dimen/textSizeState</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">@color/textColorBottomLinearLayout</item>
+
+    </style>
+
+    <style name="bottomLinearLayoutStyle_main">
+        <item name="android:background">@color/bcgOverweight</item>
+    </style>
+
+    <style name="buttonStyle">
+        <item name="android:background">@color/buttonBcg</item>
+        <item name="android:textColor">@color/buttonTextColor</item>
+    </style>
+
+
+</resources>

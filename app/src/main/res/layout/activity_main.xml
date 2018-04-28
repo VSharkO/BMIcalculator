@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent" android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/linearLayout_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/padding"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/enterHeight"
+            />
+        <EditText
+            android:id="@+id/inputHeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:hint="@string/metersHint"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/enterWeight"/>
+        <EditText
+            android:id="@+id/inputWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/kilogramsHint"
+            android:inputType="number"
+            />
+        <Button
+            android:id="@+id/calculateButton_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            style="@style/buttonStyle"
+            android:text="@string/buttonText"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottomLL_main"
+        style="@style/bottomLinearLayoutStyle_main"
+        android:layout_below="@id/linearLayout_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingStart="@dimen/padding"
+        android:paddingEnd="@dimen/padding"
+        android:paddingTop="@dimen/topPaddingLinearLayout_main"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:id="@+id/imageView_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/under_weight"
+            android:padding="@dimen/padding"
+            android:contentDescription="@string/underWeight"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="3"
+            android:rowCount="3"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/padding"
+            android:paddingTop="@dimen/linearLayoutTopPadding_mainBottom"
+            android:paddingEnd="@dimen/padding"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/padding">
+
+                <TextView
+                    style="@style/textViewBMI_main"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/bmiText_main"
+                    android:textStyle="bold"
+                    android:padding="@dimen/smallPadding"/>
+
+                <TextView
+                    android:id="@+id/amountBMI_main"
+                    style="@style/textViewBMIAmount_main"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="@dimen/smallPadding"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/padding">
+
+                <TextView
+                    style="@style/textViewBMI_main"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/stateText_main"
+                    android:padding="@dimen/smallPadding"
+                    />
+
+                <TextView
+                    android:id="@+id/amountState_main"
+                    style="@style/textViewState_main"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="@dimen/smallPadding"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/message_main"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/padding"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

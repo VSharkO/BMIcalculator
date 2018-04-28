@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding">10dp</dimen>
+    <dimen name="imageMarginLeft">10dp</dimen>
+    <dimen name="topPaddingLinearLayout_main">50dp</dimen>
+    <dimen name="textSizeBmi">20sp</dimen>
+    <dimen name="textSizeState">16sp</dimen>
+    <dimen name="linearLayoutPaddingStart_mainRight">13dp</dimen>
+    <dimen name="linearLayoutTopPadding_mainBottom">4dp</dimen>
+    <dimen name="smallPadding">10dp</dimen>
+
+</resources>

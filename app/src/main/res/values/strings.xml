@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">BMI calcilator</string>
+    <string name="enterHeight">Enter your height in metars:</string>
+    <string name="metersHint">Meters</string>
+    <string name="enterWeight">Enter yout weight in kilograms:</string>
+    <string name="kilogramsHint">Kilograms</string>
+    <string name="buttonText">Calculate</string>
+
+    <string name="underWeightMessage">Intentionally trying to lose weight to reach and stay within
+        this BMI can be unhealthy. You may not be eating enough food to supply your body with all
+        the nutrients it needs. Being underweight can lead to problems such as osteoporosis, anaemia
+        and can also affect fertility.</string>
+    <string name="normalWeightMessage">Fantastic! Your BMI indicates you are a healthy weight for
+        your height.</string>
+    <string name="overWeightMessage">Your BMI suggests you may be at risk of developing weight-related problems.
+        Losing weight will reduce this risk and could also improve existing health conditions.</string>
+    <string name="obesityMessage">Your BMI suggests your health is at great risk from weight-related problems,
+        including heart disease and diabetes. Losing weight will reduce this risk and could also
+        improve existing health conditions.</string>
+
+    <string name="bmiText_main">Your BMI:</string>
+    <string name="underWeight">Underweight</string>
+    <string name="normalWeight">Normal weight</string>
+    <string name="overWeight">Overweight</string>
+    <string name="obesity">Obesity</string>
+
+    <string name="stateText_main">Your state:</string>
+</resources>
